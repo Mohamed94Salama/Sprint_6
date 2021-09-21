@@ -1,0 +1,11 @@
+MCAL/DIO/DIO_Cfg.d MCAL/DIO/DIO_Cfg.o: ../MCAL/DIO/DIO_Cfg.c \
+ ../MCAL/DIO/DIO.h ../MCAL/DIO/DIO_Cfg.h ../LIB/STD_TYPES.h \
+ ../LIB/BIT_MANIPULATE.h
+
+../MCAL/DIO/DIO.h:
+
+../MCAL/DIO/DIO_Cfg.h:
+
+../LIB/STD_TYPES.h:
+
+../LIB/BIT_MANIPULATE.h:

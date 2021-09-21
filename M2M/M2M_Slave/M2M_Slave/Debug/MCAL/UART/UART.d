@@ -1,0 +1,13 @@
+MCAL/UART/UART.d MCAL/UART/UART.o: ../MCAL/UART/UART.c \
+ ../MCAL/UART/UART.h ../MCAL/Register.h ../LIB/STD_TYPES.h \
+ ../LIB/BIT_MANIPULATE.h ../MCAL/UART/UART_Cfg.h
+
+../MCAL/UART/UART.h:
+
+../MCAL/Register.h:
+
+../LIB/STD_TYPES.h:
+
+../LIB/BIT_MANIPULATE.h:
+
+../MCAL/UART/UART_Cfg.h:

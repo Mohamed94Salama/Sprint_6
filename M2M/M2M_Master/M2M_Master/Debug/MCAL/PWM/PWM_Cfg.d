@@ -1,0 +1,11 @@
+MCAL/PWM/PWM_Cfg.d MCAL/PWM/PWM_Cfg.o: ../MCAL/PWM/PWM_Cfg.c \
+ ../MCAL/PWM/PWM.h ../MCAL/PWM/PWM_Cfg.h ../LIB/STD_TYPES.h \
+ ../LIB/BIT_MANIPULATE.h
+
+../MCAL/PWM/PWM.h:
+
+../MCAL/PWM/PWM_Cfg.h:
+
+../LIB/STD_TYPES.h:
+
+../LIB/BIT_MANIPULATE.h:

@@ -1,0 +1,23 @@
+#include "DIO.h"
+
+
+strDIOConfigType_t astrDIOConfigParameters[DIO_GROUPS_NO] =
+{
+	/* 7-Seg */
+	{ PB0, OUTPUT, NO_CONNECTION },
+	{ PB1, OUTPUT, NO_CONNECTION },
+	{ PB2, OUTPUT, NO_CONNECTION },
+	{ PB3, OUTPUT, NO_CONNECTION },
+	{ PD2, OUTPUT, NO_CONNECTION },
+	{ PD3, OUTPUT, NO_CONNECTION },
+	/* LED */
+	{ PB4, OUTPUT, PULL_UP_ENABLE },			
+	/* LCD */
+	{ PA1, OUTPUT, NO_CONNECTION }, /* RS */
+	{ PA2, OUTPUT, NO_CONNECTION }, /* RW */
+	{ PA3, OUTPUT, NO_CONNECTION }, /* E  */
+	{ PA4, OUTPUT, NO_CONNECTION }, /* D4 */
+	{ PA5, OUTPUT, NO_CONNECTION }, /* D5 */
+	{ PA6, OUTPUT, NO_CONNECTION }, /* D6 */
+	{ PA7, OUTPUT, NO_CONNECTION }  /* D7 */
+};
